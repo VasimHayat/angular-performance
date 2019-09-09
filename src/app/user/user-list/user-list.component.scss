@@ -18,3 +18,10 @@
 cdk-virtual-scroll-viewport {
   height: 100vh;
 }
+
+.card-no-result{
+  border: 1px solid gray;
+  box-shadow: 4px 5px 28px #6f3535;
+  text-align: center;
+  padding:2px auto;
+}

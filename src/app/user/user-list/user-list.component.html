@@ -11,5 +11,10 @@
       <h3>{{ user.firstName }} {{ user.lastName }}</h3>
       <span>{{ user.email }}</span>
     </div>
+    <div *ngIf="users.length ==0" class="card card-no-result">
+      <h3>No Serach User Found...</h3>
+      <span>Try for another user</span>
+    </div>
   </cdk-virtual-scroll-viewport>
+  
 </div>

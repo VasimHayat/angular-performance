@@ -23,7 +23,10 @@ export class UserComponent {
       this.filteredUsers$ = this.users$.pipe(
         map(users => {
           console.log('mapping!', users.length);
-          return users.filter(user => Object.values(user).includes(searchText));
+          return users.filter(user => {
+            //Object.values(user).includes(searchText) 
+            return Object.values(user).toString().toLocaleLowerCase().indexOf(searchText.toLocaleLowerCase()) !=-1;
+          });
         })
       );
     }
