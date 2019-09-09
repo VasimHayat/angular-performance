@@ -1,6 +1,6 @@
 # Performance2
 https://github.com/VasimHayat/angular-performance/blob/tag_09092019/README.md
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
 
 ## Development server
 
